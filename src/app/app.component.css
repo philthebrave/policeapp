@@ -1,0 +1,14 @@
+h2, p {
+    text-align: center;
+}
+
+body {
+    display: flex;
+}
+
+.scrollable {
+    margin:0 2%;
+    height: 80vh;
+    width: 100%;
+    overflow: scroll;
+}
