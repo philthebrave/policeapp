@@ -12,3 +12,19 @@ body {
     width: 100%;
     overflow: scroll;
 }
+
+@media (max-width: 590px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .scrollable {
+        margin: auto;
+        height: 40vh;
+        width: 100%;
+        overflow: scroll;
+    }
+    div, p {
+        padding: 2%;
+    }
+}
